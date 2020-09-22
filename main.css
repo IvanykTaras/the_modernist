@@ -12,7 +12,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Georgia;
-
 }
 
 h1,
@@ -25,19 +24,15 @@ p {
     margin: 0;
 }
 
-
 a {
     text-decoration: none;
 }
 
-
-
 .container {
     width: 964px;
     margin: 0 auto;
+    position: relative;
 }
-
-
 
 .header {
     background: #290000;
@@ -64,10 +59,6 @@ a {
     color: #76C38F;
 }
 
-
-
-
-
 .navigotion_header__menu {
     list-style: none;
     display: flex;
@@ -78,7 +69,6 @@ a {
 }
 
 .navigotion_header__menu__item__link {
-
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -92,7 +82,6 @@ a {
 }
 
 .navigotion_header__menu__item__link--active {
-
     border-radius: 10px;
     background: #76C38F;
     border: 1px solid #000000;
@@ -101,12 +90,14 @@ a {
 }
 
 
-
-
 /*    SLIDER HEADER   */
+
+.slider__track {
+    padding: 0 50px;
+}
+
 .slider__track__item {
     display: flex;
-
 }
 
 .slider__track__item__left {
@@ -136,14 +127,12 @@ a {
     margin-bottom: 19px;
 }
 
-
 .slider__track__item__left__link {
     border-radius: 10px;
     background: #76C38F;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 10px 20px;
-
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
@@ -151,11 +140,6 @@ a {
     line-height: 16px;
     color: #FFFFFF;
 }
-
-
-
-
-
 
 .slider__track__item__right {
     flex: 1 0 50%;
@@ -171,8 +155,45 @@ a {
 }
 
 .slider__track__item__right__img .img {
-    width: 380px;
-    height: 380px;
+    width: 100%;
+    height: 100%;
     background: #333333;
     border-radius: 100%;
+}
+
+.slider__button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.slider__button--left {
+    position: absolute;
+    left: 0;
+}
+
+.slider__button--right {
+    position: absolute;
+    right: 0;
+}
+
+
+/*  SERVICES    */
+
+.services {
+    background: #660000;
+}
+
+.services__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__item {
+    background: #fff;
+    flex: 1 0 23%;
 }
