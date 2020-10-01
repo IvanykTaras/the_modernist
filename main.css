@@ -227,9 +227,7 @@ a {
     line-height: 17px;
     text-align: center;
     color: #979797;
-
 }
-
 
 .services__item--active {
     background: #76C38F;
@@ -242,7 +240,6 @@ a {
 .services__item--active .services__item__header,
 .services__item--active .services__item__description {
     color: #fff;
-
 }
 
 
@@ -271,7 +268,6 @@ a {
     margin-top: -28px;
     margin-bottom: 32px;
 }
-
 
 .works__blocks {
     display: flex;
@@ -303,7 +299,6 @@ a {
     height: 160px;
 }
 
-
 .works__block__title {
     display: flex;
     justify-content: space-around;
@@ -323,21 +318,16 @@ a {
 }
 
 
-
-
-
-
-
 /*    list section will make :)     */
 
 
 /*     FOOTER     */
+
 .footer {
-    
     background: #2B2B2B;
 }
 
-.footer__wrapper{
+.footer__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -351,7 +341,6 @@ a {
     font-size: 13px;
     line-height: 13px;
     color: #979797;
-
 }
 
 .footer__templayt_by {
@@ -361,4 +350,84 @@ a {
     font-size: 13px;
     line-height: 13px;
     color: #979797;
+}
+
+
+/*  DIFERENT LINKS */
+
+.different_links {
+    background: #303030;
+    padding: 40px 0;
+}
+
+.different_link__columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.different_link__column {
+    flex: 0 1 24.5%;
+}
+
+.different_link__column__header {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+
+.different_link__column__title {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #76C38F;
+    margin-bottom: 13px;
+}
+
+.different_link__columns__creator_of {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.different_link__columns__creator_of .different_link__column__creator_of--creator {
+    color: #76C38F;
+}
+
+.different_link__column__date {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #979797;
+    margin-bottom: 16px;
+}
+
+.different_link__column__content {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #979797;
+    margin-bottom: 23px;
+}
+
+.different_link__column__more {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #76C38F;
 }
